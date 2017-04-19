@@ -1,0 +1,25 @@
+{
+    "name": "Sketch Utils",
+    "description": "A plugin for miscellaneous utilities that are worth coding.",
+    "author": "Freckle",
+    "homepage": "https://github.com/mwhite05/Button-Symbols",
+    "version": "1.0.0",
+    "identifier": "io.freckle.sketch.sketch-utils",
+    "compatibleVersion": "43.1",
+    "bundleVersion": "1.0.0",
+    "commands": [
+        {
+            "script": "plugin.js",
+            "name": "Fix Symbol Layer Names",
+            "identifier": "fixsymbollayernames",
+            "handler": "command_fixSymbolLayerNames"
+        }
+    ],
+    "menu": {
+        "isRoot": false,
+        "items": [
+            "fixsymbollayernames"
+        ],
+        "title": "Sketch Utils"
+    }
+}
